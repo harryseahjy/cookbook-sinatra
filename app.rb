@@ -8,7 +8,7 @@ configure :development do
 end
 
 get '/' do
-  'Hello world!'
+  "<h1>Hello <em>world</em>!</h1>"
 end
 
 
